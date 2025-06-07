@@ -171,23 +171,11 @@
   }
 }
 @layer utilities {
-  .absolute {
-    position: absolute;
-  }
-  .relative {
-    position: relative;
-  }
   .mx-auto {
     margin-inline: auto;
   }
   .mt-2 {
     margin-top: calc(var(--spacing) * 2);
-  }
-  .mt-\[20px\] {
-    margin-top: 20px;
-  }
-  .mt-\[30\] {
-    margin-top: 30;
   }
   .mt-\[30px\] {
     margin-top: 30px;
@@ -198,12 +186,6 @@
   .mt-\[100px\] {
     margin-top: 100px;
   }
-  .mr-16 {
-    margin-right: calc(var(--spacing) * 16);
-  }
-  .mr-20 {
-    margin-right: calc(var(--spacing) * 20);
-  }
   .mr-\[10px\] {
     margin-right: 10px;
   }
@@ -213,47 +195,20 @@
   .mb-0 {
     margin-bottom: calc(var(--spacing) * 0);
   }
-  .ml-4 {
-    margin-left: calc(var(--spacing) * 4);
-  }
   .ml-5 {
     margin-left: calc(var(--spacing) * 5);
-  }
-  .ml-8 {
-    margin-left: calc(var(--spacing) * 8);
   }
   .ml-10 {
     margin-left: calc(var(--spacing) * 10);
   }
-  .ml-14 {
-    margin-left: calc(var(--spacing) * 14);
-  }
   .flex {
     display: flex;
-  }
-  .table {
-    display: table;
   }
   .h-\[60px\] {
     height: 60px;
   }
-  .w-5 {
-    width: calc(var(--spacing) * 5);
-  }
-  .w-36 {
-    width: calc(var(--spacing) * 36);
-  }
-  .w-52 {
-    width: calc(var(--spacing) * 52);
-  }
   .w-72 {
     width: calc(var(--spacing) * 72);
-  }
-  .w-80 {
-    width: calc(var(--spacing) * 80);
-  }
-  .w-96 {
-    width: calc(var(--spacing) * 96);
   }
   .w-\[16px\] {
     width: 16px;
@@ -264,44 +219,20 @@
   .w-\[60px\] {
     width: 60px;
   }
-  .w-\[70px\] {
-    width: 70px;
-  }
   .w-\[90\%\] {
     width: 90%;
   }
   .w-\[100\%\] {
     width: 100%;
   }
-  .w-\[170\] {
-    width: 170;
-  }
-  .w-\[170px\] {
-    width: 170px;
-  }
-  .w-\[px\] {
-    width: px;
-  }
   .max-w-\[470px\] {
     max-width: 470px;
-  }
-  .flex-1 {
-    flex: 1;
   }
   .flex-1\/2 {
     flex: calc(1/2 * 100%);
   }
-  .border-collapse {
-    border-collapse: collapse;
-  }
   .cursor-pointer {
     cursor: pointer;
-  }
-  .resize {
-    resize: both;
-  }
-  .flex-col {
-    flex-direction: column;
   }
   .items-center {
     align-items: center;
@@ -321,25 +252,12 @@
   .rounded-\[50\%\] {
     border-radius: 50%;
   }
-  .border {
-    border-style: var(--tw-border-style);
-    border-width: 1px;
-  }
   .border-0 {
     border-style: var(--tw-border-style);
     border-width: 0px;
   }
   .bg-\[\#ebfffc\] {
     background-color: #ebfffc;
-  }
-  .bg-amber-400 {
-    background-color: var(--color-amber-400);
-  }
-  .bg-amber-500 {
-    background-color: var(--color-amber-500);
-  }
-  .bg-amber-700 {
-    background-color: var(--color-amber-700);
   }
   .bg-gradient-to-br {
     --tw-gradient-position: to bottom right in oklab;
@@ -353,23 +271,11 @@
     --tw-gradient-to: #5b548a;
     --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
   }
-  .p-\[0\] {
-    padding: 0;
-  }
-  .p-\[0px\] {
-    padding: 0px;
-  }
   .px-10 {
     padding-inline: calc(var(--spacing) * 10);
   }
   .px-20 {
     padding-inline: calc(var(--spacing) * 20);
-  }
-  .px-30 {
-    padding-inline: calc(var(--spacing) * 30);
-  }
-  .px-40 {
-    padding-inline: calc(var(--spacing) * 40);
   }
   .px-\[25px\] {
     padding-inline: 25px;
@@ -394,10 +300,6 @@
     font-size: var(--text-3xl);
     line-height: var(--tw-leading, var(--text-3xl--line-height));
   }
-  .text-5xl {
-    font-size: var(--text-5xl);
-    line-height: var(--tw-leading, var(--text-5xl--line-height));
-  }
   .text-6xl {
     font-size: var(--text-6xl);
     line-height: var(--tw-leading, var(--text-6xl--line-height));
@@ -418,19 +320,6 @@
   }
   .text-\[\#fff\] {
     color: #fff;
-  }
-  .text-\[500-\] {
-    color: 500-;
-  }
-  .text-\[500\] {
-    color: 500;
-  }
-  .underline {
-    text-decoration-line: underline;
-  }
-  .outline {
-    outline-style: var(--tw-outline-style);
-    outline-width: 1px;
   }
   .outline-0 {
     outline-style: var(--tw-outline-style);

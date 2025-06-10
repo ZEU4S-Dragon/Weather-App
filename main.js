@@ -2,7 +2,7 @@ const apiKey="3fd22816468b4171213810732d6b90cf";
 const apiUrl="https://api.openweathermap.org/data/2.5/weather?units=metric&q=bangalore";
 
 const searchBox = document.querySelector(".search input");
-const searchBox = document.querySelector(".search button");
+const searchBtn = document.querySelector(".search button");
 
 async function checkWeather(city){
     const respose = await fetch(apiUrl + city + `&appid=${apiKey}`);
@@ -15,10 +15,10 @@ async function checkWeather(city){
     document.querySelector(".wind").innerText = data.wind.speed + "km/h";
 }
 
-searchBox.addEventListener(click, ()=>{
+searchBtn.addEventListener(click, ()=>{
 
     checkWeather(searchBox.value);
-    searchBox.value = "";
+    
 })
 
 checkWeather();

@@ -13,9 +13,14 @@
                 <input type="text" placeholder="enter your name" spellcheck="true" class="border-0 outline-0 bg-[#ebfffc] text-[#222] py-[10px] px-[25px] h-[60px] rounded-[30px] flex-1/2 mr-[16px] text-[18px]">
                 <button class="cursor-pointer border-0 outline-0 bg-[#ebfffc] rounded-[50%] w-[60px] h-[60px] "><img class="w-[16px] ml-5" src="./images/search.png" alt=""></button>
             </div>
+            <style>
+                #weather{
+                  display: none;
+                }
+            </style>
 
-            <div class="">
-                <img src="images/rain.png" class="px-20 ml-10  w-72 mt-[30px] " alt="">
+            <div id="weather" class="">
+                <img id="weather-icon" src="images/rain.png" class="px-20 ml-10  w-72 mt-[30px] " alt="">
                 <h1 id="temp" class="text-6xl font-bold">22°C</h1>
                 <h2 id="city" class="text-3xl font-bold mt-2">New York</h2>
                 <div id="details" class="flex items-center justify-between p-[0 20px] mt-[50px] px-10 ">
